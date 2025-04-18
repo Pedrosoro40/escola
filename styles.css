@@ -1,0 +1,87 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  main {
+    padding: 20px;
+  }
+  .intro {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  .intro img {
+    max-width: 300px;
+    height: auto;
+  }
+  .info {
+    max-width: 500px;
+  }
+  .info h2 {
+    margin-bottom: 5px;
+  }
+  .info h3 {
+    margin-top: 20px;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  ul li::before {
+    content: "• ";
+    color: #333;
+  }
+  section {
+    margin-bottom: 40px;
+  }
+  .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .portfolio-item {
+    width: calc(25% - 20px);
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+  }
+  .portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  form button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  footer {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
